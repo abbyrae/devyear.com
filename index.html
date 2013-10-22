@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<meta property="og:image" content="images/logo.png" />
+<meta property="og:url" content="http://www.burghideas.com/" />
+<meta property="og:description" content="open source ideation for a better Pittsburgh" />
+<meta property="og:title" content="burgh ideas" />
+
+<title>Dev.Year</title>
+
+<!-- http://t.co/dKP3o1e --> 
+<meta name="HandheldFriendly" content="True"> 
+<meta name="MobileOptimized" content="320"> 
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/nivo-slider.css" type="text/css" rel="stylesheet">
+<link href="css/prettyPhoto.css" type="text/css" rel="stylesheet">
+<link href="css/tipsy.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/libs/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="js/libs/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/libs/modernizr-1.7.min.js"></script>
+<script type="text/javascript" src="js/libs/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="js/libs/jquery.easing.1.2.js"></script>
+<script type="text/javascript" src="js/libs/jquery.visualNav.min.js"></script>
+<script type="text/javascript" src="js/libs/jquery.quicksand.js"></script>
+<script type="text/javascript" src="js/libs/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/libs/jquery.livetwitter.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <script type="text/javascript">
+
+    google.load("feeds", "1");
+    google.setOnLoadCallback(initialize);
+
+    function initialize() {
+      var feed = new google.feeds.Feed("<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <script type="text/javascript">
+
+    google.load("feeds", "1");
+    google.setOnLoadCallback(initialize);
+
+    function initialize() {
+      var feed = new google.feeds.Feed("http://westsylvanian.tumblr.com/rss");
+      feed.setNumEntries(6);
+      feed.setResultFormat(google.feeds.Feed.JSON_FORMAT);
+      feed.load(function(result) {
+        // $.each(result.feed.entries, function(){
+        //     $("section#blog div.center").appendChild("<div>this is stuff</div>");
+        //     // console.log("eq: "+);
+        //     console.log($(this));
+        //   });
+        if (!result.error) 
+              {
+           var container = document.getElementById("blogfeed");
+
+          for (var i = 0; i < result.feed.entries.length; i++) 
+          {  
+            var entry = result.feed.entries[i];
+            var last = "";
+            if ((i+1) % 3 == 0) {
+              last = " last";
+            }
+            var article = document.createElement("article");
+            article.innerHTML = '<div class="blog_entry'+ last +'"><h3><a href="' + entry.link + '">' + entry.title + '</a><cite> ' + entry.author + '</cite></h3><p>' + entry.content + '</p></div>';
+            container.appendChild(article);
+          }
+        }
+      });
+    }
+
+    </script>
+
+</head>
+
+<body>
+<div id="page">
+
+  <!-- /END header-->
+  <section id="home" class="content first_content">
+    <div class="center">
+    	<!--<img id="logo1" src="images/logo.png">-->
+      <h1 id="intro">Dev.Year</h1><br><br>
+      <h1>Coming 2014. Registration opening soon.</h1><br><br><br>
+      <h3>Nine months to get inside the machine and learn to live and work as a web developer. </h3> 
+  	</div>
+<br><br>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="http://saxifrageschool.us5.list-manage2.com/subscribe/post?u=1a512028b208a111fcf2165f7&amp;id=f4d78d97d2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  
+<div class="mc-field-group">
+  <label for="mce-EMAIL">Add your e-mail to the Waiting List: </label>
+  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+
+  </section>
+
+
+
+          <br> <div class="clear"></div>
+<footer id="header">
+<a href="#home" id="logo" title="burgh ideas'"><img src="images/logo.png" alt="Logo" />
+</a><br><br>
+<h5>Learn to make what is valuable and to question the value of what is made.</h5>
+          <div class="clear"></div>
+
+  </footer>
+
+ </div>
+</body>
