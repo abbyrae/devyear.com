@@ -40,6 +40,12 @@ embed {
 img {
   -ms-interpolation-mode: bicubic; }
 
+.subpage_content {
+  width: 75%; 
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 #map_canvas img,
 #map_canvas embed,
 #map_canvas object,

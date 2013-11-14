@@ -5,6 +5,11 @@ input{ -webkit-appearance: none; }
 
 /** SPACING **/
 
+.pad-extralarge{
+	padding-top: 148px;
+	padding-bottom: 88px;
+}
+
 .pad-large{
 	padding-top: 88px;
 	padding-bottom: 88px;
