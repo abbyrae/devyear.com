@@ -34,19 +34,19 @@ h1, h2, h3, h4, h5, h6{
 /** ELEMENTS **/
 
 .hr{
-	background-color: #222;
+	background-color: #fff;
 	height: 1px;
 	margin: 0px auto;
 }
 
 .thick-hr{
-	background-color: #222;
+	background-color: #fff;
 	height: 6px;
 	margin: 0px auto;
 }
 
 .btn{
-	border: 1px solid #222;
+	border: 1px solid #FFF;
 	border-right: 3px solid;
 	border-bottom: 3px solid;
 	padding: 15px;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #quote-divider{
-	background: url('http://placehold.it/1200x800');
+	background: url('../img/chairs.png');
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #clients{
-	background:url('http://placehold.it/1200x800');
+	background:url('../img/chairs.png');
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
