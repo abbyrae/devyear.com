@@ -6,8 +6,8 @@ $(window).load(function(){
 	
 	$('.btn-wrapper').each(function(){
 	
-		var btnHeight = $(this).children('.btn').outerHeight() + 4;
-		var btnWidth = $(this).children('.btn').outerWidth() + 4;
+		var btnHeight = $(this).children('.btn').outerHeight();
+		var btnWidth = $(this).children('.btn').outerWidth();
 		
 		$(this).css('height', btnHeight);
 		$(this).css('width', btnWidth);
@@ -48,11 +48,11 @@ $(document).ready(function(){
 	
 	$('.service').click(function(){
 	
-		if($(this).hasClass('open-service')){
-			$(this).removeClass('open-service');
-		}else{
-			$(this).addClass('open-service');
-		}
+		//if($(this).hasClass('open-service')){
+		//	$(this).removeClass('open-service');
+		//}else{
+		//	$(this).addClass('open-service');
+		//}
 	
 	});
 	

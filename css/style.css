@@ -393,29 +393,42 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom: 0px;
 }
 
-.service{
+.column-content{
 	padding: 15px;
-	border: 1px solid #222;
-	border-right: 3px solid #555;
-	border-bottom: 3px solid #555;
+	border: 0px solid #222;
+	border-right: 0px solid #555;
+	border-bottom: 0px solid #555;
 	max-height: 132px;
 	overflow: hidden;
-	cursor: pointer;
+	cursor: auto;
+
+	position: relative;
+}
+
+
+
+.service{
+	padding: 15px;
+	border: 0px solid #222;
+	border-right: 0px solid #555;
+	border-bottom: 0px solid #555;
+	max-height: 132px;
+	overflow: hidden;
 	position: relative;
 }
 
 .service:hover{
-	border-right: 1px solid #555;
-	border-bottom: 1px solid #555;
-	top: 2px;
-	left: 2px;
+	border-right: 0px solid #555;
+	border-bottom: 0px solid #555;
+	top: 0px;
+	left: 0px;
 	
 }
 
 .open-service{
 	max-height: 380px !important;
-	border-right: 1px solid #222;
-	border-bottom: 1px solid #222;
+	border-right: 0px solid #222;
+	border-bottom: 0px solid #222;
 }
 
 .open-service .hr{
@@ -430,7 +443,17 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 42px;
 }
 
+.column-content i{
+	font-size: 42px;
+}
+
 .service h5{
+	margin-top: 22px;
+	letter-spacing: 7px;
+	margin-right: -7px;
+}
+
+.column-content h5{
 	margin-top: 22px;
 	letter-spacing: 7px;
 	margin-right: -7px;
@@ -445,7 +468,26 @@ h1, h2, h3, h4, h5, h6{
 	transition: all .3s;
 }
 
+.column-content .hr{
+	margin-top: 22px;
+	margin-bottom: 22px;
+	opacity: 0;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
 .service p{
+	opacity: 0;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	margin-bottom: 7px;
+	text-align: justify;
+
+}
+
+.column-content p{
 	opacity: 0;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
