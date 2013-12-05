@@ -414,8 +414,8 @@ h1, h2, h3, h4, h5, h6{
 
 .open-service{
 	max-height: 380px !important;
-	border-right: 3px solid #222;
-	border-bottom: 3px solid #222;
+	border-right: 1px solid #222;
+	border-bottom: 1px solid #222;
 }
 
 .open-service .hr{
